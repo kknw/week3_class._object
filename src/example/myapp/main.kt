@@ -1,4 +1,5 @@
 package example.myapp
+import example.myapp.decor.makeDecorations
 import java.lang.Math
 
 fun makeFish() {
@@ -11,6 +12,8 @@ fun makeFish() {
 }
 
 fun main () {
-    makeFish()
+    //makeFish()
+    makeDecorations()
+
 }
 
